@@ -1,0 +1,25 @@
+{
+  "name": "learnoauth",
+  "version": "1.0.0",
+  "description": "Learn OAuth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaunjovi/learnOAuth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaunjovi/learnOAuth/issues"
+  },
+  "homepage": "https://github.com/kaunjovi/learnOAuth#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "hellojs": "^1.14.0",
+    "morgan": "^1.8.0",
+    "nodemon": "^1.11.0"
+  }
+}
