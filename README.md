@@ -5,14 +5,33 @@ Learn OAuth
 
 # Heroku commands 
 
+
+```bash
+
+# go to your directory and log into heroku
+$ cd code/learnOAuth/
+$ ls 
+Procfile  README.md index.js  node_modules  npm-debug.log package.json
+$ heroku login 
+Enter your Heroku credentials.
+Email: kaunjovi@gmail.com
+Password (typing will be hidden): 
+Logged in as kaunjovi@gmail.com
+
+```
+
+
 ```bash
 
 # Run the app locally 
 $ heroku local web
 [WARN] No ENV file found
-10:52:37 PM web.1 |  Listening on http://localhost:5000
+10:52:37 PM web.1 |  Listening on http://localhost:5000 
 
 # Push the app online. 
+
+git push heroku master
+ heroku open cool
 
 # Check the logs 
 heroku logs --tail
