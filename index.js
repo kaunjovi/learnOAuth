@@ -4,7 +4,7 @@ var express = require('express')
 
 app.get('/', function (req, res) {
 
-    res.send( 'Hello Heroku.')
+    res.send( 'Hello Heroku. We are happy now.')
 })
 
 app.listen(process.env.PORT || 5000, function () {

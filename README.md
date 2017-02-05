@@ -9,6 +9,7 @@ Learn OAuth
 ```bash
 
 # go to your directory and log into heroku
+
 $ cd code/learnOAuth/
 $ ls 
 Procfile  README.md index.js  node_modules  npm-debug.log package.json
@@ -18,20 +19,38 @@ Email: kaunjovi@gmail.com
 Password (typing will be hidden): 
 Logged in as kaunjovi@gmail.com
 
+# Run the app locally 
+
+$ pwd 
+/Users/parthabhattacharjee/code/learnOAuth
+$ heroku local web
+[WARN] No ENV file found
+11:03:27 PM web.1 |  Listening on http://localhost:5000
+
+# Push the app online. 
+
+$ pwd 
+/Users/parthabhattacharjee/code/learnOAuth
+$ git push heroku master 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+...
+...
+remote: Verifying deploy... done.
+To https://git.heroku.com/evening-garden-93201.git
+   3c9482e..78557ef  master -> master
+
+# run the app online 
+
+heroku open cool
+
 ```
 
 
 ```bash
 
-# Run the app locally 
-$ heroku local web
-[WARN] No ENV file found
-10:52:37 PM web.1 |  Listening on http://localhost:5000 
 
-# Push the app online. 
-
-git push heroku master
- heroku open cool
 
 # Check the logs 
 heroku logs --tail
