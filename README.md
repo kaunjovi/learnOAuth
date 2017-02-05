@@ -5,9 +5,14 @@ Learn OAuth
 
 # Heroku commands 
 
-  - See the logs of the app running in heroku
-
 ```bash
+
+# Run the app locally 
+$ heroku local web
+[WARN] No ENV file found
+10:52:37 PM web.1 |  Listening on http://localhost:5000
+
+# Push the app online. 
 
 # Check the logs 
 heroku logs --tail
@@ -45,7 +50,6 @@ https://devcenter.heroku.com/articles/dyno-sleeping
 
 === web (Free): npm start (1)
 web.1: up 2017/02/05 22:49:53 +0530 (~ 6s ago)
-
 
 
 
